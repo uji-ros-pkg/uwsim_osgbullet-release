@@ -1,0 +1,12 @@
+Source: ros-hydro-uwsim-osgbullet
+Section: misc
+Priority: extra
+Maintainer: Mario Prats <marioprats@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), cmake, libboost-all-dev, libopenscenegraph-dev, libopenscenegraph80, libopenthreads-dev, libopenthreads14, openscenegraph, ros-hydro-uwsim-bullet, ros-hydro-uwsim-osgworks
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-uwsim-osgbullet
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, libopenscenegraph-dev, libopenscenegraph80, libopenthreads-dev, libopenthreads14, openscenegraph, ros-hydro-catkin, ros-hydro-uwsim-bullet, ros-hydro-uwsim-osgworks
+Description: The OSG Bullet library adapted to UWSim. See https://code.google.com/p/osgbullet
