@@ -1,3 +1,24 @@
+## uwsim_osgbullet (jade) - 3.0.1-1
+
+The packages in the `uwsim_osgbullet` repository were released into the `jade` distro by running `/usr/bin/bloom-release uwsim_osgbullet --track jade --rosdistro jade` on `Tue, 22 Sep 2015 06:32:24 -0000`
+
+The `uwsim_osgbullet` package was released.
+
+Version of package(s) in repository `uwsim_osgbullet`:
+- upstream repository: https://github.com/uji-ros-pkg/uwsim_osgbullet.git
+- release repository: https://github.com/uji-ros-pkg/uwsim_osgbullet-release.git
+- rosdistro version: `3.0.1-0`
+- old version: `3.0.1-0`
+- new version: `3.0.1-1`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.37`
+
+
 ## uwsim_osgbullet (jade) - 3.0.1-0
 
 The packages in the `uwsim_osgbullet` repository were released into the `jade` distro by running `/usr/bin/bloom-release uwsim_osgbullet --track jade --rosdistro jade --new-track` on `Mon, 21 Sep 2015 00:02:54 -0000`
