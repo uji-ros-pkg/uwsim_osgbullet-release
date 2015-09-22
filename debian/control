@@ -1,0 +1,12 @@
+Source: ros-jade-uwsim-osgbullet
+Section: misc
+Priority: extra
+Maintainer: Mario Prats <marioprats@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), cmake, libboost-all-dev, libopenscenegraph-dev, openscenegraph, ros-jade-uwsim-bullet, ros-jade-uwsim-osgworks
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jade-uwsim-osgbullet
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, libopenscenegraph-dev, openscenegraph, ros-jade-catkin, ros-jade-uwsim-bullet, ros-jade-uwsim-osgworks
+Description: The OSG Bullet library adapted to UWSim. See https://code.google.com/p/osgbullet
