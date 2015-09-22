@@ -20,7 +20,7 @@
 
 #include <osgbInteraction/HandTestEventHandler.h>
 #include <osgbInteraction/HandNode.h>
-#include <osgwTools/Quat.h>
+#include <osgwTools/Orientation.h>
 
 
 namespace osgbInteraction
@@ -198,7 +198,7 @@ HandTestEventHandler::handle( const osgGA::GUIEventAdapter& ea, osgGA::GUIAction
             _lastX = ea.getXnormalized();
             _lastY = ea.getYnormalized();
 
-            osg::Quat q = osgwTools::makeHPRQuat(
+            osg::Quat q = osgwTools::makeQuat(
                 osg::RadiansToDegrees( _h ),
                 osg::RadiansToDegrees( _p ),
                 osg::RadiansToDegrees( _r ) );
@@ -450,7 +450,7 @@ VirtualHandTestEventHandler::handle( const osgGA::GUIEventAdapter& ea, osgGA::GU
                 _lastX = ea.getXnormalized();
                 _lastY = ea.getYnormalized();
 
-                osg::Quat q = osgwTools::makeHPRQuat(
+                osg::Quat q = osgwTools::makeQuat(
                     osg::RadiansToDegrees( _h ),
                     osg::RadiansToDegrees( _p ),
                     osg::RadiansToDegrees( _r ) );
