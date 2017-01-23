@@ -1,3 +1,26 @@
+## uwsim_osgbullet (kinetic) - 3.0.1-0
+
+The packages in the `uwsim_osgbullet` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release uwsim_osgbullet --track kinetic --rosdistro kinetic --new-track` on `Mon, 23 Jan 2017 17:51:47 -0000`
+
+The `uwsim_osgbullet` package was released.
+
+Version of package(s) in repository `uwsim_osgbullet`:
+
+- upstream repository: https://github.com/uji-ros-pkg/uwsim_osgbullet.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `3.0.1-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.23`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.5.0`
+- vcstools version: `0.1.39`
+
+
 ## uwsim_osgbullet (indigo) - 3.0.1-1
 
 The packages in the `uwsim_osgbullet` repository were released into the `indigo` distro by running `/usr/bin/bloom-release uwsim_osgbullet --track indigo --rosdistro indigo` on `Wed, 23 Sep 2015 04:20:48 -0000`
