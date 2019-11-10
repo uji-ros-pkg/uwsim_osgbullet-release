@@ -1,3 +1,26 @@
+## uwsim_osgbullet (melodic) - 3.0.1-2
+
+The packages in the `uwsim_osgbullet` repository were released into the `melodic` distro by running `/usr/local/bin/bloom-release --rosdistro melodic --track melodic uwsim_osgbullet --edit` on `Sun, 10 Nov 2019 19:30:12 -0000`
+
+The `uwsim_osgbullet` package was released.
+
+Version of package(s) in repository `uwsim_osgbullet`:
+
+- upstream repository: https://github.com/uji-ros-pkg/uwsim_osgbullet.git
+- release repository: https://github.com/uji-ros-pkg/uwsim_osgbullet-release.git
+- rosdistro version: `3.0.1-1`
+- old version: `3.0.1-1`
+- new version: `3.0.1-2`
+
+Versions of tools used:
+
+- bloom version: `0.8.0`
+- catkin_pkg version: `0.4.14`
+- rosdep version: `0.17.1`
+- rosdistro version: `0.7.5`
+- vcstools version: `0.1.40`
+
+
 ## uwsim_osgbullet (melodic) - 3.0.1-1
 
 The packages in the `uwsim_osgbullet` repository were released into the `melodic` distro by running `/usr/bin/bloom-release uwsim_osgbullet --rosdistro melodic` on `Thu, 24 Oct 2019 07:53:32 -0000`
